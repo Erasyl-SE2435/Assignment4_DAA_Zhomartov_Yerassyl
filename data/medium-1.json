@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    { "id": "T1", "duration": 6, "outs": ["T3", "T4", "T6"] },
+    { "id": "T2", "duration": 7, "outs": [] },
+    { "id": "T3", "duration": 5, "outs": ["T4"] },
+    { "id": "T4", "duration": 2, "outs": ["T10"] },
+    { "id": "T5", "duration": 1, "outs": ["T3", "T6", "T7"] },
+    { "id": "T6", "duration": 4, "outs": ["T12"] },
+    { "id": "T7", "duration": 8, "outs": [] },
+    { "id": "T8", "duration": 6, "outs": [] },
+    { "id": "T9", "duration": 4, "outs": [] },
+    { "id": "T10", "duration": 2, "outs": ["T6"] },
+    { "id": "T11", "duration": 6, "outs": [] },
+    { "id": "T12", "duration": 9, "outs": ["T10"] }
+  ]
+}

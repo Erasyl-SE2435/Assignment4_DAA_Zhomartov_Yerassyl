@@ -1,0 +1,10 @@
+{
+  "nodes": [
+    { "id": "T1", "duration": 2, "outs": [] },
+    { "id": "T2", "duration": 1, "outs": ["T5"] },
+    { "id": "T3", "duration": 2, "outs": [] },
+    { "id": "T4", "duration": 9, "outs": ["T1", "T3"] },
+    { "id": "T5", "duration": 6, "outs": ["T3"] },
+    { "id": "T6", "duration": 5, "outs": ["T4", "T5"] }
+  ]
+}

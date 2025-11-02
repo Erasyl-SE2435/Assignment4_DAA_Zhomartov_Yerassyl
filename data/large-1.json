@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    { "id": "T1", "duration": 8, "outs": ["T7", "T14", "T15", "T19"] },
+    { "id": "T2", "duration": 5, "outs": [] },
+    { "id": "T3", "duration": 4, "outs": ["T4", "T5", "T13", "T16", "T17"] },
+    { "id": "T4", "duration": 1, "outs": ["T14", "T21", "T12", "T7"] },
+    { "id": "T5", "duration": 8, "outs": ["T1", "T2", "T4", "T9", "T10"] },
+    { "id": "T6", "duration": 3, "outs": ["T7"] },
+    { "id": "T7", "duration": 9, "outs": ["T4", "T17", "T21", "T13"] },
+    { "id": "T8", "duration": 3, "outs": ["T7", "T9"] },
+    { "id": "T9", "duration": 3, "outs": ["T1", "T13", "T10"] },
+    { "id": "T10", "duration": 7, "outs": ["T15", "T19", "T22"] },
+    { "id": "T11", "duration": 5, "outs": ["T2", "T5", "T8", "T9", "T15", "T20", "T22"] },
+    { "id": "T12", "duration": 8, "outs": ["T11", "T16", "T17", "T7"] },
+    { "id": "T13", "duration": 10, "outs": ["T9", "T10", "T4"] },
+    { "id": "T14", "duration": 9, "outs": [] },
+    { "id": "T15", "duration": 10, "outs": ["T5"] },
+    { "id": "T16", "duration": 10, "outs": ["T8", "T10", "T13", "T14", "T15", "T19"] },
+    { "id": "T17", "duration": 8, "outs": ["T5", "T11"] },
+    { "id": "T18", "duration": 6, "outs": ["T6", "T9", "T14", "T19"] },
+    { "id": "T19", "duration": 4, "outs": ["T9", "T10", "T12", "T13", "T22"] },
+    { "id": "T20", "duration": 2, "outs": ["T1", "T7", "T11"] },
+    { "id": "T21", "duration": 5, "outs": ["T1", "T7", "T10", "T12"] },
+    { "id": "T22", "duration": 9, "outs": ["T11", "T12", "T18", "T9"] }
+  ]
+}
